@@ -10,19 +10,19 @@ public class Main {
         String operation=scan.next();
         switch(operation){
             case "firstname":
-                userregistration.firstNameValid();
+                System.out.println(userregistration.firstNameValid("Sachin"));
                 break;
             case "lastname":
-                userregistration.lastNameValid();
+                System.out.println(userregistration.lastNameValid("Sah"));
                 break;
             case "email":
-                userregistration.emailValid();
+                System.out.println(userregistration.emailValid("sachin.bar@gmail.com"));
                 break;
             case "mobile":
-                userregistration.mobileValid();
+                System.out.println(userregistration.mobileValid("9832878787"));
                 break;
             case "password":
-                userregistration.passwordValid();
+                System.out.println(userregistration.passwordValid("Abcd@123"));
                 break;
         }
     }
